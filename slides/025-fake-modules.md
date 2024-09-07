@@ -1,9 +1,23 @@
 # Fake Modules
 
-This is a slide! 
+```js
+// Not a real package 🫠
+import Something from '@ember/something';
+```
+<!-- .element style="font-size: 100%" -->
 
-If this is intended to be a section you can add new sections using `---` to delimit new slides
+gets magically converted to
+
+```js
+import Something from 'ember-source/something/index';
+```
+<!-- .element style="font-size: 80%" -->
+
+🔔 FORESHADOWING!! 🔔
+<!-- .element class="fragment" -->
 
 Note:
 
-Let's write some notes!
+Our module system started out as a fake module system where you could import from `@ember/something` and it would essentially be rewritten during build time to `ember-source/something/index`
+
+but the biggest foundational system that is relevant to the story of vite is ember-cli, and the underlying build technology that drives it:

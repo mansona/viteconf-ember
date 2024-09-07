@@ -6,4 +6,6 @@ If this is intended to be a section you can add new sections using `---` to deli
 
 Note:
 
-Let's write some notes!
+The whole point of broccoli is that your files are represented as a tree (essentially reflecting how your OS looks at them). But the cool thing is that you get a pipeline of trees where any file can be changed, files can be added, removed. It's all really powerful... but I wonder if any of you have seen the issue with a system like this. It doesn't match the modern build system concept of starting at an entrypoint and walking the module graph. With broccoli you have to work on whole trees all the time and you have very little knowledge about which modules are being used so you can't make the build any more efficient and you can't do any code splitting or tree shaking (ironcally - all trees with no shaking 😭).
+
+so how do we marry these two worlds? How do we bring Ember into a world where we need to understand the module graph? 

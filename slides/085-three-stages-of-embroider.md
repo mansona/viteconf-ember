@@ -1,9 +1,14 @@
 # Three stages of Embroider
 
-This is a slide! 
+- Stage 1 
+  - convert all your addons
 
-If this is intended to be a section you can add new sections using `---` to delimit new slides
+- Stage 2 
+  - convert your app
+
+- Stage 3 
+  - pass your converted app and addons over to your bundler (that's Vite!)
 
 Note:
 
-Let's write some notes!
+I mentioned that embroider allows you to use all your normal Ember build shenanigans while still upgrading to modern tooling. well that's because we convert all the broccoli nonsense into "real" packages for you in stage 1 and stage 2. If you were thinking of building a system like this that converts something for you you might think "let's emulate the api" 
