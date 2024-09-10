@@ -31,4 +31,4 @@ private handleRewrittenPackages(request) {
 
 Note:
 
-Let's write some notes!
+this slide is looking at how we actually change the request but we're out of time so I'll leave that as a homework for the viewer to pause the stream and see what it's doing

@@ -19,6 +19,8 @@ async resolveId(source, importer, options) {
 
 Note:
 
+here is the heart of the embroider vite plugin
+
 at first glance the vite plugin isn't doing all that much. We have this custom resolver that we pass a request to and if it finds a thing great! No big deal. But what is fun is when you look under the hood of that resolver. 
 
 a resolver loader locates a temp folder in your current app where a ember prebuild has output a bunch of metadata files that tells our embroider resolver what to do with a request.

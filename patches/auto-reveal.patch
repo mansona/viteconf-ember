@@ -1,0 +1,14 @@
+diff --git a/src/main.js b/src/main.js
+index b1370c24df3f16f4811f97656eaf4be330c5b17f..7e1c901e4068ecbe74bcad3bdf179cdea20458d8 100644
+--- a/src/main.js
++++ b/src/main.js
+@@ -3,6 +3,9 @@ import Highlight from 'reveal.js/plugin/highlight/highlight.esm.js';
+ import Markdown from 'reveal.js/plugin/markdown/markdown.esm.js';
+ import Notes from 'reveal.js/plugin/notes/notes.esm.js';
+ 
++import JSConfetti from 'js-confetti';
++window.jsConfetti = new JSConfetti();
++
+ import 'reveal.js/dist/reveal.css';
+ 
+ import '@theme';

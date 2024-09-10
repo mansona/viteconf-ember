@@ -5,4 +5,8 @@
 
 Note:
 
-that's not possible because broccoli is a strange tangled mess of very timing specific things that is next to impossible to pick apart without the whole thing coming crashing down
+I would say don't even try it! It's not really possible because broccoli is a strange tangled mess of very timing specific things that is next to impossible to pick apart without the whole thing coming crashing down
+
+so what's the solution? well... just run the strange broccoli stuff and save the output somewhere! Then you can clean up the output to make it look like a more reasonable package and hey presto you have created yourself what we call a rewritten package.
+
+and this brings us to our first bit of metadata that we need to save. What packages were rewritten and where did we rewrite them to? 

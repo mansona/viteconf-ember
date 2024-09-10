@@ -25,4 +25,6 @@ private handleRewrittenPackages(request) {
 
 Note:
 
-Let's write some notes!
+now we have most of the stuff we need to even start asking the questions we would like to ask. we have info on the package that the request is coming from. we have info about the target package that we're trying to ask about.
+
+Next up we start checking if either the requesting package or the target package have been rewritten. if so we can start doing some slightly magical things with the request and alter the request before it bubbles out to Vite/rollup or esbuild

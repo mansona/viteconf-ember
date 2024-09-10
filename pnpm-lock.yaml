@@ -4,16 +4,24 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  auto-reveal:
+    hash: pf5k74rj3vc3mbkzlzhjfukdmi
+    path: patches/auto-reveal.patch
+
 importers:
 
   .:
     dependencies:
       auto-reveal:
         specifier: ^0.3.0
-        version: 0.3.0(@types/node@22.5.4)
+        version: 0.3.0(patch_hash=pf5k74rj3vc3mbkzlzhjfukdmi)(@types/node@22.5.4)
       auto-reveal-theme-mainmatter:
         specifier: ^0.1.2
         version: 0.1.2
+      js-confetti:
+        specifier: ^0.12.0
+        version: 0.12.0
     devDependencies:
       layer-gen:
         specifier: ^1.0.1
@@ -1006,6 +1014,9 @@ packages:
     resolution: {integrity: sha512-2P4SQ0HrLQ+fw6llpLnOaGAvN2Zu6778SJMrCUwns4fOoG9ayrTiZk3VV8sCPkVZF8ab0zksVpS8FDY5pRCNBA==}
     engines: {node: '>=10'}
     hasBin: true
+
+  js-confetti@0.12.0:
+    resolution: {integrity: sha512-1R0Akxn3Zn82pMqW65N1V2NwKkZJ75bvBN/VAb36Ya0YHwbaSiAJZVRr/19HBxH/O8x2x01UFAbYI18VqlDN6g==}
 
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
@@ -2026,7 +2037,7 @@ snapshots:
     dependencies:
       '@yukaii/github-highlightjs-themes': 1.0.0
 
-  auto-reveal@0.3.0(@types/node@22.5.4):
+  auto-reveal@0.3.0(patch_hash=pf5k74rj3vc3mbkzlzhjfukdmi)(@types/node@22.5.4):
     dependencies:
       commander: 12.1.0
       reveal.js: 5.1.0
@@ -2590,6 +2601,8 @@ snapshots:
       chalk: 4.1.2
       filelist: 1.0.4
       minimatch: 3.1.2
+
+  js-confetti@0.12.0: {}
 
   js-tokens@4.0.0: {}
 

@@ -31,22 +31,22 @@
 </style>
 
 <div class="card-wrapper">
-<div class="card-thingy">
+<div class="card-thingy fragment">
 
 <img src="/classes.png" >
   
 ES Classes
 
-</div>
+</div> 
 
-<div class="card-thingy">
+<div class="card-thingy fragment">
 <img src="/box.svg" >
 
 ES Modules
 
 </div>
 
-<div class="card-thingy">
+<div class="card-thingy fragment">
 <img src="/cogs.webp" >
 
 Build Systems
@@ -56,8 +56,10 @@ Build Systems
 
 Note:
 
-Classes in JavaScript actually happened with Ember's help, Ember Core Team members were working with TC39 at the time they were being added.
-ES modules - we were using them as part of our authoring format before they were in the language.
-ember-cli, our baked in build system, was so ahead of its time that there were many arguments about if frameworks even needed a build system at the time. And since we're all here at ViteConf, I guess the team build system has won that particular battle!!
+Classes in JavaScript. They actually happened with Ember's help, Ember Core Team members were working with TC39 at the time they were being added.
+ES modules - we were using them as part of our authoring format before they were added to JavaScript.
+ember-cli, our baked in build system, was so ahead of its time that there were many arguments about if frameworks even needed a build system at the time that it came out. And since we're all here at ViteConf, I guess the team build system has won that particular battle!!
 
-but with all those firsts we have a few problems, expeicially when we care so much about stability and not leaving anyone behind. our pree-class "class" object was the basis for all the major building blocks of the framework. We've cleaned up a bunch of them but still not all of them
+but with all those firsts we have a few problems, expeicially because we care so much about stability and not leaving anyone behind. our pree-class "class" object was the basis for all the major building blocks of the framework. We've cleaned up a bunch of them but still not all of them
+
+Our module system...

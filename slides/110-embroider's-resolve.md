@@ -25,10 +25,10 @@ async resolve(request) {
 
 Note:
 
-This code might look complicated but it's actually vastly simplified (and has had all the types stripped out). This slide could be summarised as 
+This code might look complicated but it's not all that bad. we can summarise it as
 
 - check if there is anything to do before even trying to resolve
 - hand it off to vite/rollup/esbuild to try to resolve
 - if we didn't find it then see if there is any ember-specific fallback we need to do
 
-the code we're looknig for is in beforeResolve so let's jump in there and take a look
+we're trying to follow the example of a rewritten package so using my existing knowledge of where things live I'm going to jump straight into the before Resolve and take a look. 

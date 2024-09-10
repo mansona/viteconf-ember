@@ -18,6 +18,8 @@ import Something from 'ember-source/something/index';
 
 Note:
 
-Our module system started out as a fake module system where you could import from `@ember/something` and it would essentially be rewritten during build time to `ember-source/something/index`
+... well it started out as a fake module system where you could import from `@ember/something` and it would essentially be rewritten during build time to `ember-source/something/index`
+
+SLIDE
 
 but the biggest foundational system that is relevant to the story of vite is ember-cli, and the underlying build technology that drives it:

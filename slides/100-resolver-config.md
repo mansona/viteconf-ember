@@ -18,13 +18,13 @@
 }
 ```
 
-<sup>*</sup>18 of the 400 lines in this file from a basic app 🙈
-<!-- .element class="fragment" style="font-size: 70%" -->
+<sup>*</sup>18 of the 400 lines in this file from a basic boilerplate app 🙈
+<!-- .element style="font-size: 70%" -->
 
 Note:
 
-you can see an example of what I said at the beginning of fake module renaming, it's not actually fake any more but you can see that `@ember/object` actually comes from the ember-source package
+I'm going to skip over all these examples very fast but do you see at the bottom there in the active addons array there is a package that has a root entry in a `.embroider/rewritten-packages` folder
 
-then in the engines array, the first engine has an active addon that has a root in rewritten-packages. This is the example I want to try to show you with the 1 minute I have left on the clock.
+This is the example I want to try to bottom out with you with the 1 minute I have left on the clock.
 
 Going back to our code example of the resolve id

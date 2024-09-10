@@ -65,4 +65,4 @@ private handleRewrittenPackages(request) {
 
 Note:
 
-Let's write some notes!
+This is what it looks like in handleRewrittenPackages. It's way too small for a single slide

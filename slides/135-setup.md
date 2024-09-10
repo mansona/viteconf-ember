@@ -28,4 +28,8 @@ private handleRewrittenPackages(request) {
 
 Note:
 
-Let's write some notes!
+here we access the package cache to see where the reuest is coming from. The package cache is using the same information that we saw in our config file a second ago. If the request is coming from somehwere that we don't know anything about we return the request unchanged
+
+the same is true if the specifier, the acual import path, doesn't have a package name. We essentially assume it's a relative import so we don't do anything and return the request unchanged
+
+next we check to see if we're make a request to a target package that isn't the same as the package we're currently in. Essentially a non-relative, non-self request like it says there in the comment

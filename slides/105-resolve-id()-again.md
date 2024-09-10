@@ -18,4 +18,4 @@ async resolveId(source, importer, options) {
 
 Note:
 
-Let's write some notes!
+We've loaded the metadata our Embroider resolver using this resolverLoader and we pass a request into the resolve function so let's take a look

@@ -17,3 +17,5 @@
 
 note:
 
+and thats it. thank you for watching  my talk and I hope that you reach out to me to ask any questions you might have about anything i've said today or anything Ember related honestly! Enjoy the rest of viteconf!
+
