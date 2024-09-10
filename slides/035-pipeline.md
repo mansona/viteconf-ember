@@ -1,8 +1,14 @@
 # Pipeline
 
-This is a slide! 
+<div class="card-wrapper">
 
-If this is intended to be a section you can add new sections using `---` to delimit new slides
+![pipeline](/pipeline1.png) <!-- .element class="fragment" -->
+
+![pipeline](/pipeline2.png) <!-- .element class="fragment" -->
+
+![pipeline](/pipeline3.png) <!-- .element class="fragment" -->
+
+</div>
 
 Note:
 

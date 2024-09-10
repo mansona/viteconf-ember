@@ -1,8 +1,7 @@
-# OBJECTION
 
-This is a slide! 
 
-If this is intended to be a section you can add new sections using `---` to delimit new slides
+![ace](/ace-attorney.png) <!-- .element style="height: 400px; position: absolute; left: 100px; bottom: 100px;" -->
+![objection](/objection.png) <!-- .element style="height: 300px; position: absolute; right: 100px; top: 100px;" -->
 
 Note:
 

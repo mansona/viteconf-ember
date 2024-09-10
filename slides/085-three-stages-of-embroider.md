@@ -1,13 +1,35 @@
 # Three stages of Embroider
 
-- Stage 1 
-  - convert all your addons
 
-- Stage 2 
-  - convert your app
+<div class="card-wrapper">
+<div class="card-thingy">
+  
+Stage 1
 
-- Stage 3 
-  - pass your converted app and addons over to your bundler (that's Vite!)
+convert all your addons <!-- .element style="text-align: left; width: 90%;" -->
+
+</div>
+
+<div class="card-thingy">
+
+Stage 2 
+
+convert your app <!-- .element style="text-align: left; width: 90%;" -->
+
+</div>
+
+<div class="card-thingy">
+
+
+Stage 3 
+
+Pass your converted app and addons over to your bundler <!-- .element style="text-align: left; width: 90%;" -->
+
+That's vite 🎉 <!-- .element class="fragment" style="font-size: 60%;" -->
+
+</div>
+</div>
+
 
 Note:
 

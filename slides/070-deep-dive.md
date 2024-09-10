@@ -1,8 +1,6 @@
 # Deep Dive
 
-This is a slide! 
-
-If this is intended to be a section you can add new sections using `---` to delimit new slides
+![](/dive-in.webp)<!-- .element style="height:500px;" -->
 
 Note:
 

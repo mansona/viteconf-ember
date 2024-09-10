@@ -1,8 +1,6 @@
 # Embroider Initative
 
-This is a slide! 
-
-If this is intended to be a section you can add new sections using `---` to delimit new slides
+![logos](/sponsor-logos.jpg)
 
 Note:
 

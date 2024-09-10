@@ -1,8 +1,14 @@
-# Serious about Modules?
+# Serious about Modules!
 
-This is a slide! 
+<div>
 
-If this is intended to be a section you can add new sections using `---` to delimit new slides
+![eval define](/eval-define.png) <!-- .element style="width: 1300px;" -->
+
+🤢
+
+</div>
+
+<!-- .element class="fragment" -->
 
 Note:
 

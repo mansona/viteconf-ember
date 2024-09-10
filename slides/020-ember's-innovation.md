@@ -1,8 +1,58 @@
 # Ember's Innovation
 
-- ES Classes
-- ES Modules
-- Build systems
+<style>
+
+.card-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.card-thingy {
+  border-radius: 30px;
+  
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  border: 3px solid black;
+}
+
+.card-thingy img {
+  /* min-width: 100%; */
+  padding: 15px;
+  object-fit: cover;
+  height: 160px;
+  min-height: 160px;
+}
+
+</style>
+
+<div class="card-wrapper">
+<div class="card-thingy">
+
+<img src="/classes.png" >
+  
+ES Classes
+
+</div>
+
+<div class="card-thingy">
+<img src="/box.svg" >
+
+ES Modules
+
+</div>
+
+<div class="card-thingy">
+<img src="/cogs.webp" >
+
+Build Systems
+
+</div>
+</div>
 
 Note:
 
